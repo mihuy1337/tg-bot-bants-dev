@@ -2,8 +2,8 @@ import { Telegraf, Markup } from "telegraf"
 
 
 
-const token = '7393108446:AAHiyc6ZpYXlRdcWaJWT2W3pyUnPRgz44RQ'
-const webAppUrl = 'https://avazoom.netlify.app/'
+const token = '7362319667:AAELXPek9dlpGD8VcH0i-TrjmeVyA-H1jhk'
+const webAppUrl = 'https://bants.netlify.app'
 
 const bot = new Telegraf(token)
 
@@ -18,3 +18,5 @@ bot.command('start', (ctx) => {
         ])
     )
 })
+
+bot.launch()
