@@ -2,19 +2,27 @@
   "name": "tg-bot-bants",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node main.js",
-    "dev": "nodemon main.js"
+    "build": "tsc -b",
+    "dev": "ts-node-dev --respawn --transpile-only --exit-child -r tsconfig-paths/register server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "telegraf": "^4.16.3"
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "telegraf": "^4.16.3",
+    "ts-node-dev": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.4",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.2"
   }
 }
