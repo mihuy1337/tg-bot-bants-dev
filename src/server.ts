@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
-import { botLaunch } from './src/bot/botLaunch'
-import { orderRouter } from './src/order/order.controller'
+import { botLaunch } from './bot/botLaunch'
+import { orderRouter } from './order/order.controller'
 
 const app = express()
 

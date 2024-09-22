@@ -1,1 +1,1 @@
-{"root":["./src/bot/botlaunch.ts","./src/bot/globalvars.ts","./src/order/order.controller.ts","./src/order/order.service.ts"],"version":"5.6.2"}
+{"root":["./src/server.ts","./src/bot/botlaunch.ts","./src/bot/globalvars.ts","./src/order/order.controller.ts","./src/order/order.service.ts"],"version":"5.6.2"}
